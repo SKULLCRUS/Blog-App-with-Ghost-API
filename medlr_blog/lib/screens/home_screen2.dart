@@ -19,8 +19,8 @@ class _HomeScreen2State extends State<HomeScreen2> {
 
   Future<List<GhostPost>> fetch_data() async {
     final api = GhostContentAPI(
-      url: 'https://medlr.in/blog',
-      key: '31b7aefc87a22661d0af42fe77',
+      url: 'https://demo.ghost.io',
+      key: '22444f78447824223cefc48062',
       version: 'v3',
     );
     prettyTimeStamp(DateTime.now());
